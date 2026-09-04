@@ -1,0 +1,17 @@
+{
+  "name": "signalboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Real-time status board: WebSockets, RBAC, hash-chained tamper-evident audit log.",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "migrate": "node scripts/migrate.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "pg": "^8.13.0",
+    "ws": "^8.18.0"
+  }
+}
