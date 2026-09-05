@@ -10,7 +10,7 @@
     "migrate": "node scripts/migrate.mjs"
   },
   "dependencies": {
-    "express": "^4.21.0",
+    "express": "^5.2.1",
     "pg": "^8.13.0",
     "ws": "^8.18.0"
   }
